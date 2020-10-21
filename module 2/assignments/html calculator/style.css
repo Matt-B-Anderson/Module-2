@@ -1,0 +1,41 @@
+body {
+    background-color: #2c5249;
+}
+
+.titleBar {
+    text-align: center;
+    color: white;
+}
+
+#addition {
+    display: block;
+    margin-left: 28vw;
+    padding: 5px;
+}
+
+#subtraction {
+    display: block;
+    margin-left: 28vw;
+    padding: 5px;
+}
+
+#multiplication {
+    display: block;
+    margin-left: 28vw;
+    padding: 5px;
+}
+
+#add {
+    background-color: royalblue;
+    color: white;
+}
+
+#subtract {
+    background-color: coral;
+    color: white;
+}
+
+#multiply {
+    background-color: burlywood;
+    color: white;
+}

@@ -1,0 +1,178 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+abbr {
+    border: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+h1,
+h2 {
+    color: #fff;
+    font-weight: normal;
+}
+
+h1 {
+    padding-top: 0;
+    padding-bottom: 5px;
+    border-bottom: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3.2em;
+    text-transform: uppercase;
+}
+
+h3 {
+    margin: 2em 0 0 0;
+    color: #2e484c;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.8em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas: "hr hr hr hr hr hr nd nd nd" "hr hr hr hr hr hr nd nd nd" "if if if if if if au au au" "if if if if if if au au au" "if if if if if if au au au" "if if if if if if au au au" "if2 if2 if2 if2 if2 if2 ts ts ts" "if2 if2 if2 if2 if2 if2 ts ts ts" "if2 if2 if2 if2 if2 if2 ts ts ts" "if2 if2 if2 if2 if2 if2 ts ts ts" "if2 if2 if2 if2 if2 if2 ts ts ts" "if3 if3 if3 if3 if3 if3 bk bk bk" "if3 if3 if3 if3 if3 if3 bk bk bk" "if3 if3 if3 if3 if3 if3 bk bk bk" "if3 if3 if3 if3 if3 if3 bk bk bk" "cr cr cr cr cr cr cr cr cr" "cr cr cr cr cr cr cr cr cr" "ic ic ic ic ic ic ic ic ic"
+}
+
+.header {
+    background: #2d6360 50% 0 url(huntington.jpg) no-repeat;
+    background-image: url(contours.png), url(noise.png), url(gridlines.png), url(huntington.jpg);
+    background-attachment: fixed, fixed, fixed, scroll;
+    grid-area: hr;
+    text-align: center;
+}
+
+.nextDesign {
+    grid-area: nd;
+    background: #2d6360 50% 0 url(huntington.jpg) no-repeat;
+    background-image: url(contours.png), url(noise.png), url(gridlines.png), url(huntington.jpg);
+    background-attachment: fixed, fixed, fixed, scroll;
+}
+
+.nextDesign ul {
+    margin: 0;
+}
+
+.nextDesign li {
+    position: absolute;
+    border: none;
+    list-style: none;
+}
+
+.info {
+    grid-area: if;
+}
+
+.info a {
+    color: #809b7e;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+}
+
+.authors {
+    background-color: #edf4f0;
+    grid-area: au;
+}
+
+.authors ul {
+    margin: 0;
+}
+
+.authors li {
+    float: left;
+    width: 50%;
+    padding: 1.5em 10%;
+    border-top: solid 1px #d9e3dc;
+    color: #c0cac3;
+    font-style: italic;
+    list-style: none;
+}
+
+.info2 {
+    background-attachment: scroll, scroll, fixed;
+    background-color: rgba(138, 188, 159, 0.5);
+    background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+    grid-area: if2;
+}
+
+.info2 a {
+    color: #0d8ba1;
+    text-decoration: none;
+}
+
+.tabs {
+    overflow: hidden;
+    background-color: rgba(138, 188, 159, 0.5);
+    background-image: url(bamboo.png);
+    grid-area: ts;
+}
+
+.tabs li {
+    float: left;
+    width: 50%;
+    padding: 1.5em 10%;
+    border-top: solid 1px #d9e3dc;
+    color: #c0cac3;
+    font-style: italic;
+    list-style: none;
+}
+
+.info3 {
+    grid-area: if3;
+}
+
+.blank {
+    background-color: #edf4f0;
+    grid-area: bk;
+}
+
+.creators {
+    width: auto;
+    padding: 1em 12%;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.4);
+    background: #3e5d67;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-image: url(contours.png), url(gridlines.png), url(noise.png), url(koi.jpg);
+    background-position: 0 0, -5px -25px, 0 0, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    grid-area: cr;
+}
+
+.icons {
+    clear: both;
+    padding: 3em 10%;
+    color: #fff;
+    background: #134347;
+    text-align: center;
+    grid-area: ic;
+}
+
+@media only screen and (max-width: 320px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(50px, auto);
+        grid-template-areas: "hr hr hr" "hr hr hr" "hr hr hr" "nd nd nd" "if if if" "if if if" "if if if" "if if if" "if if if" "if if if" "if if if" "if if if" "if if if" "if if if" "if2 if2 if2" "if2 if2 if2" "if2 if2 if2" "if2 if2 if2" "if2 if2 if2" "if2 if2 if2" "if2 if2 if2" "if2 if2 if2" "if2 if2 if2" "if2 if2 if2" "if3 if3 if3" "if3 if3 if3" "if3 if3 if3" "if3 if3 if3" "if3 if3 if3" "if3 if3 if3" "if3 if3 if3" "if3 if3 if3" "if3 if3 if3" "if3 if3 if3" "cr cr cr" "cr cr cr" "cr cr cr" "ic ic ic" "au au au" "au au au" "au au au" "au au au" "ts ts ts" "ts ts ts" "ts ts ts" "ts ts ts" "ts ts ts"
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(50px, auto);
+        grid-template-areas: "hr hr hr" "hr hr hr" "hr hr hr" "nd nd nd" "if if if" "if if if" "if if if" "if if if" "if if if" "if if if" "if if if" "if2 if2 if2" "if2 if2 if2" "if2 if2 if2" "if2 if2 if2" "if2 if2 if2" "if2 if2 if2" "if2 if2 if2" "if3 if3 if3" "if3 if3 if3" "if3 if3 if3" "if3 if3 if3" "if3 if3 if3" "if3 if3 if3" "if3 if3 if3" "cr cr cr" "cr cr cr" "cr cr cr" "ic ic ic" "au au au" "au au au" "au au au" "au au au" "ts ts ts" "ts ts ts" "ts ts ts" "ts ts ts"
+    }
+}

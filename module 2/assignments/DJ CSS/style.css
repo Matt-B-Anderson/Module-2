@@ -1,0 +1,104 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#grid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 15px;
+    grid-template-areas: "b1 b2 b3" "b4 b5 b6";
+}
+
+#box1 {
+    background-color: black;
+    grid-area: b1;
+    transition: background-color 1s linear 1s, border-radius 1s linear 1s;
+}
+
+#box1:hover {
+    background-color: red;
+    color: green;
+    border: black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: x-large;
+}
+
+#box2 {
+    background-color: black;
+    grid-area: b2;
+    transition: background-color 1s linear 1s, border-radius 1s linear 1s;
+}
+
+#box2:hover {
+    background-color: orange;
+    color: blue;
+    border: black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: x-large;
+}
+
+#box3 {
+    background-color: black;
+    grid-area: b3;
+    transition: background-color 1s linear 1s, border-radius 1s linear 1s;
+}
+
+#box3:hover {
+    background-color: yellow;
+    color: purple;
+    border: black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: x-large;
+}
+
+#box4 {
+    background-color: black;
+    grid-area: b4;
+    transition: background-color 1s linear 1s, border-radius 1s linear 1s;
+}
+
+#box4:hover {
+    background-color: green;
+    color: red;
+    border: black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: x-large;
+}
+
+#box5 {
+    background-color: black;
+    grid-area: b5;
+    transition: background-color 1s linear 1s, border-radius 1s linear 1s;
+}
+
+#box5:hover {
+    background-color: blue;
+    color: orange;
+    border: black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: x-large;
+}
+
+#box6 {
+    background-color: black;
+    grid-area: b6;
+    transition: background-color 1s linear 1s, border-radius 1s linear 1s;
+}
+
+#box6:hover {
+    background-color: purple;
+    color: yellow;
+    border: black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: x-large;
+}

@@ -1,0 +1,52 @@
+body {
+    background-color: #2c5249;
+}
+
+#h1 {
+    color: white;
+    text-align: center;
+}
+
+#price {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+#goombas {
+    margin-left: 36vw;
+    padding: 10px;
+}
+
+#bobombs {
+    margin-left: 36vw;
+    padding: 10px;
+}
+
+#cheepCheeps {
+    margin-left: 36vw;
+    padding: 10px;
+}
+
+#submit {
+    padding-left: 210px;
+    padding-right: 210px;
+    margin-left: 38vw;
+}
+
+#totalPrice {
+    margin-left: 47vw;
+    padding: 10px;
+}
+
+#total {
+    color: white;
+}
