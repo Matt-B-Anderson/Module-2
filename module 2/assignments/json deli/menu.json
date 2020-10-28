@@ -1,0 +1,47 @@
+{
+    "appetizers": [{
+        "name": "Bagel Lox",
+        "ingredients": ["salmon", "bagel", "cream cheese"],
+        "description": "Pile of lox on a rustic bagel."
+    }, {
+        "name": "Crackers and Cheese",
+        "ingredients": ["whole grain cracker", "secret spices", "gouda"],
+        "description": "Individual crackers with melted cheese on top."
+    }],
+    "cold sandwiches": [{
+        "name": "Turkey Avacado",
+        "ingredients": ["turkey", "avacado", "rye bread"],
+        "description": "What you read is what you get. Turkey avacado."
+    }, {
+        "name": "Tuna",
+        "ingredients": ["tuna salad", "white bread", "secret sauce"],
+        "description": "Just your tipical tuna salad, but with our secret ingredient sauce."
+    }],
+    "hot sandwiches": [{
+        "name": "Philly",
+        "ingredients": ["mystery meat", "slightly molded bread", "saurcrout"],
+        "description": "Philly cheese without the cheese, but with the mold from the cheese."
+    }, {
+        "name": "Tuna Melt",
+        "ingredients": ["tuna salad", "white bread", "munster cheese"],
+        "description": "Don't like the idea of secret sauce? How about some melted cheese?"
+    }],
+    "deserts": [{
+        "name": "All-The-Mode",
+        "ingredients": ["chosen icecream flavor", "bowl", "spoon"],
+        "description": "Did someone ask for ala mode? How about All-The-Mode? Just one giant scoop of icecream."
+    }, {
+        "name": "Rootbeer Float",
+        "ingredients": ["rootbeer", "vanilla icecream", "floaties"],
+        "description": "Keeping it classic with the original combo: rootbeer, and vanilla ice cream, and some left over milk fat(floaties)."
+    }],
+    "drinks": [{
+        "name": "Soda",
+        "ingredients": ["artificial flavoring", "artificial water", "artificial ice"],
+        "description": "Enjoy your artificial everything cabonated beverage."
+    }, {
+        "name": "Unicorn Saliva",
+        "ingredients": ["water", "water", "water"],
+        "description": "Sounds gross, but we had to find a way to get the kids to drink water."
+    }]
+}
